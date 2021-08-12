@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3b3c3e8036.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="text-center main-container">
+                <h1>Budget APP</h1>
+                <div class="d-flex flex-row p-4 bg-white">
+                    <div class="p-3 text-center">
+                        <h1 class="mini-head">Budget</h1>
+                        <img src="https://assets.ccbp.in/frontend/dynamic-webapps/budget-img.png" />
+                        <p class="money" id="budgetAmount">0</p>
+                    </div>
+                    <div class="p-3 text-center">
+                        <h1 class="mini-head">Expense</h1>
+                        <img src="https://assets.ccbp.in/frontend/dynamic-webapps/expenses-img.png" />
+                        <p class="money" id="totalExpensesAmount">0</p>
+                    </div>
+                    <div class="p-3 text-center">
+                        <h1 class="mini-head">Balance</h1>
+                        <img src="https://assets.ccbp.in/frontend/dynamic-webapps/balance-img.png" />
+                        <p class="money" id="balanceAmount">0</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="budget-container text-left bg-white p-4 mt-4">
+                            <p>Please enter the budget</p>
+                            <input type="text" placeholder="In rupees" id="budgetInput" />
+                            <p class="message" id="budgetInputErrMsg"></p>
+                            <button class="btn and btn-primary mt-5" id="setBudgetBtn">Set Budget</button>
+                        </div>
+                        <div class="expense-container bg-white mt-4 text-left p-4">
+                            <p>Enter the expenses title</p>
+                            <input type="text" placeholder="Title" id="expenseTitleInput" />
+                            <p class="message" id="expenseTitleInputErrMsg"></p>
+                            <p>enter the expense amount</p>
+                            <input type="text" placeholder="In Rupess" id="expenseAmountInput" />
+                            <p class="message" id="expenseAmountInputErrMsg"></p>
+                            <button class="btn and btn-secondary mt-5" id="addExpenseBtn">Add expense</button>
+                        </div>
+                    </div>
+                    <div class="history-container bg-white mt-4 p-4 col-lg-6">
+                        <h1 class="mini-head p-3">Expense History</h1>
+                        <div>
+                            <div class="d-flex flex-row">
+                                <h1 class="mini-head pr-5">Expenses Title</h1>
+                                <h1 class="mini-head">AMount spent</h1>
+                            </div>
+                            <ul id="expensesHistory" class="text-left">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

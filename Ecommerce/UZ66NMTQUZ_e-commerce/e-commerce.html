@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 ">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">FLY BUY</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ml-auto">
+                            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link" href="#explore">Features</a>
+                            <a class="nav-item nav-link" href="#trending">trending</a>
+                            <a class="nav-item nav-link" href="#services" id="servicesSection">Services</a>
+                            <a class="nav-item nav-link" href="#offers">offers</a>
+                            <a class="nav-item nav-link" href="#WCU">Why choose us</a>
+                            <a class="nav-item nav-link" href="#footer">footer</a>
+                        </div>
+                    </div>
+                </nav>
+                <div id="carouselExampleIndicators" class="carousel slide d-md-none" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" style="height:100vh;">
+                            <img class="d-block w-100 " src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-carousel-1-sm-img.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item" style="height:100vh">
+                            <img class="d-block w-100 " src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-carousel-2-sm-img.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item" style="height:100vh">
+                            <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-carousel-3-sm-img.png" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div id="carouselExampleIndicators" class="carousel slide d-none d-md-block" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active " style="height:100vh">
+                            <img class="d-block w-100 " src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-carousel-1-img.png
+" alt="First slide">
+                        </div>
+                        <div class="carousel-item" style="height:100vh">
+                            <img class="d-block w-100 d-md-block" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-carousel-2-img.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item" style="height:100vh">
+                            <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-carousel-3-img.png" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="pt-10 pb-10 mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 pt-10">
+                        <h1>
+                            Our Services
+                        </h1>
+                    </div>
+                    <div class="col-12">
+                        <p>Most online stores offer lower prices.Online shopping makes price comparison simpler and quicker.It is very convenient to shop from where you are located.It saves you the cost od driving to stores,as well as parking fees.</p>
+                    </div>
+                    <div class="col-12 col-md-4 ">
+                        <div class="cards shadow text-center pd-2">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-services-delivery-img.png" class="pd-5 mt-2" />
+                            <h1>Fast and Free Delivery</h1>
+                            <p>Fast,free, and convenient delivery choices on millions of items</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="cards shadow text-center">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-services-money-back-img.png" class="pd-5 mt-2" />
+                            <h1>100% Money back guarantee</h1>
+                            <p>This is probably the most popular guarantee in the world.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="cards shadow text-center">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-services-24-by-7-support-img.png" class="pd-5 mt-2" />
+                            <h1>Online Support 24/7</h1>
+                            <p>Our Online Support will provide you with many usefull functions,valuable information,tips.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="offers">
+        <div class="baground">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-1 order-1 order-md-2 d-flex flex-row justify-content-center ml-2 mr-2">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-offers-special-img.png" class="ml-2" />
+                    </div>
+                    <div class="col-12 col-md-5 order-2 order-md-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-offers-appliances-img.png" class="w-100" /> />
+                    </div>
+                    <div class="col-12 col-md-5 order-3 order-md-1">
+                        <h1>BEST NEW YEAR SPECIAL OFFERS</h1>
+                        <P>Best time to buy.Save upto <span style="font-weight:bold;">70%</span> cash</P>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-offers-credit-card-img.png" class="image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="trending">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 pt-10 mt-5">
+                    <h1 class="h1">Trending Blogs</h1>
+                </div>
+                <div class="col-12 col-md-6 shadow mb-3">
+                    <div class="cards">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-trending-blogs-1-img.png" class="image" />
+                        <div>
+                            <p class="p">Fountain Pens</p>
+                            <h1>Guide to Fountain Pen Nibs</h1>
+                            <p>If you're having trouble with a fountain pen whether it's scratchy ,too dry,or too wet...</p>
+                            <a><span>READ MORE<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                    </svg></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 shadow mb-2 cards">
+                    <div class="cards">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-trending-blogs-2-img.png" class="image" />
+
+                        <div>
+                            <p class="p">Productivity</p>
+                            <h1>How to craft a Better Todo List</h1>
+                            <p>A Well-Crafted Todo list acts as a guiding light for your day.It helps you overcome</p>
+                            <a><span class="mb-5">READ MORE<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                    </svg></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="explore">
+        <div class="baground_explore mt-3 mb-5 pb-10 pt-10">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 ">
+                        <h1>Explore Deals & Offers</h1>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-2">
+                        <div class="cards_explore shadow">
+                            <h1 class="h1_explore">Up to 80% Off|Electronics & Gadgets</h1>
+                            <div class="d-flex flex-row ">
+                                <div class="ml-2">
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-mamba-watch-img.png" class="img_explore" />
+                                    <p>Smart Watch</p>
+                                </div>
+                                <div class="ml-2">
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-camera-img.png" class="img_explore" />
+                                    <p>Cameras</p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row ">
+                                <div class="ml-2">
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-sport-and-fitness-img.png" class="img_explore" />
+                                    <p>Sports & Fitness</p>
+                                </div>
+                                <div>
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-ear-phones-pink-img.png" class="img_explore" />
+                                    <p>Earphones</p>
+                                </div>
+                            </div>
+                            <a><span class=".span_explore">See All Deals<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                    </svg></span></a>
+                        </div>
+                    </div>
+                    <div class="col-12  col-md-6 mb-2 col-lg-4 ">
+                        <div class="cards shadow">
+                            <h1>Festive Offers Tv's & appliances</h1>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-tv-img.png" class="image_explores" />
+                            <a><span>See All Deals<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                    </svg></span></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-2">
+                        <div class="cards shadow">
+                            <h1>Under Rs 400|Friendly Accessories</h1>
+                            <div class="d-flex flex-row">
+                                <div>
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-tablet-device-img.png" class="img_explore" />
+                                    <p>Tablet</p>
+                                </div>
+                                <div>
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-joy-stick-img.png" class="img_explore" />
+                                    <p>Playstation</p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <div>
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-speakers-big-img.png" class="img_explore" />
+                                    <p>Speakers</p>
+                                </div>
+                                <div>
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-vr-set-img.png" class="img_explore" />
+                                    <p>Virtual Reality Set</p>
+                                </div>
+                            </div>
+                            <a><span>See All Deals<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                    </svg></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="WCU">
+        <div class="baground_WCU pt-10">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="h1_WCU">Let us Join Together</h1>
+                    </div>
+                    <div class="col-12">
+                        <button class="button_WCU">CONTACT US</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="baground_footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3col-md-4 text-center">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-website-logo-img.png" class="image_footer" />
+                        <div class="d-flex flex-row justify-content-center">
+                            <div class="icons_footer">
+                                <i class="fa fa-google" aria-hidden="true"></i>
+                            </div>
+                            <div class="icons_footer">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </div>
+                            <div class="icons_footer">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </div>
+                            <div class="icons_footer">
+                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <p class="p_footer">37,Ayur Vigyan Nagar,New Delhi,India.</p>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-3">
+                        <h1 class="h1_footer">Get to know us</h1>
+                        <ul>
+                            <li>About us</li>
+                            <li>Career</li>
+                            <li>Press Releases</li>
+                            <li>Gift a smile</li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-3">
+                        <h1 class="h1_footer">Contact with Us</h1>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h1 class="h1_footer">Let Us Help You</h1>
+                        <ul>
+                            <li>100% Purchase</li>
+                            <li>Protection</li>
+                            <li>Return Centre</li>
+                            <li>Help</li>
+                        </ul>
+                    </div>
+                    <hr class="hrline" />
+                    <div class="text-center">
+                        <i class="fa fa-copyright icons" aria-hidden="true"></i><span class="span_footer">2020 by Rahul .created with Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
